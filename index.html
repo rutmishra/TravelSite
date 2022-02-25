@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>The Voyage</title>
+  </head>
+  <body>
+    <header>
+      <section class="top_bar" id="top_bar">
+        <div class="topbar_wrapper">
+          <div class="top_header_contacts">
+            <h3 class="phone">
+              <i class="fas fa-phone-alt"></i>+91 (999) 999-99-99
+            </h3>
+            <h3 class="email">
+              <i class="fas fa-envelope"></i>sales@thevoyage.com
+            </h3>
+          </div>
+          <div class="top_header_social">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </section>
+      <nav id="nav">
+        <div class="nav_container">
+          <div class="nav_logo">
+            <h1>The Voyage</h1>
+            <i class="fa-solid fa-bars bars" onclick="showhide()"></i>
+          </div>
+          <div class="nav_menus" id="nav_menus">
+            <ul id="menu_options" class="menu_options">
+              <li>Home</li>
+              <li>Places</li>
+              <li>Packages</li>
+              <li>Destinations</li>
+              <li>Gallery</li>
+              <li>Testimonial</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="search_bar">
+          <input type="text" placeholder="Search Places, Galeries, Packages" class="input"/>
+          <div class="search_icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+      </section>
+    </header>
+    <main>
+        <section class="places">
+            <div class="places_header">
+              <h2>Our Showplaces</h2>
+            </div>
+            <div class="places_gallery">
+              <div>
+                <div class="places_desc">
+                  <h3>Trecking Paradise</h3>
+                  <button>view more</button>
+                </div>
+              </div>
+              <div>
+                <div class="places_desc">
+                  <h3>Oasis of Serenity</h3>
+                  <button>view more</button>
+                </div>
+              </div>
+              <div>
+                <div class="places_desc">
+                  <h3>Rejuvination of Soul</h3>
+                  <button>view more</button>
+                </div>
+              </div>
+    
+              <div>
+                <div class="places_desc">
+                  <h3>Allure of Nature</h3>
+                  <button>view more</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="packages_wrapper">
+            <div class="packages_header">
+              <h2>Our Packages</h2>
+            </div>
+            <div class="packages_gallery">
+              <div class="package_total pkg1">
+                <div class="pkgImg_wrapper">
+                  <img
+                    src="./media/images/packages/rajasthan.jpg"
+                    alt="Rajasthan Image"
+                  />
+                </div>
+                <div class="package_gallery_desc">
+                  <h3>Rajasthan Package</h3>
+                  <p>(Jaipur, Udaipur, Jodhpur & Amer)</p>
+                  <div class="rating1 rating">
+                    <div class="sub_rating1">
+                      <div class="gray_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="yello_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="package_total pkg2">
+                <div class="pkgImg_wrapper">
+                  <img src="./media/images/packages/kerala.jpg" alt="Kerela Image" />
+                </div>
+                <div class="package_gallery_desc">
+                  <h3>Kerala Package</h3>
+                  <p>(Munnar, Kumarakom, & Varkala)</p>
+                  <div class="rating2 rating">
+                    <div class="sub_rating2">
+                      <div class="gray_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="yello_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="package_total pkg3">
+                <div class="pkgImg_wrapper">
+                  <img src="./media/images/packages/odisha.jpg" alt="Odisha Image" />
+                </div>
+                <div class="package_gallery_desc">
+                  <h3>Odisha Package</h3>
+                  <p>(Puri, Konark, & Bhubaneswar)</p>
+                  <div class="rating3 rating">
+                    <div class="sub_rating3">
+                      <div class="gray_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="yello_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="package_total pkg4">
+                <div class="pkgImg_wrapper">
+                  <img
+                    src="./media/images/packages/kashmir.jpg"
+                    alt="Kashmir Image"
+                  />
+                </div>
+                <div class="package_gallery_desc">
+                  <h3>Kashmir Package</h3>
+                  <p>(Srinagar, Gulmarg, & Pahalgam)</p>
+                  <div class="rating4 rating">
+                    <div class="sub_rating4">
+                      <div class="gray_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="yello_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="package_total last_package">
+                <div class="pkgImg_wrapper">
+                  <img src="./media/images/packages/goa.jpg" alt="Goa Image" />
+                </div>
+                <div class="package_gallery_desc">
+                  <h3>Goa Package</h3>
+                  <p>(Palolem, Dudhsagar, & Aguada)</p>
+                  <div class="rating5 rating">
+                    <div class="sub_rating">
+                      <div class="sub_rating5">
+                        <div class="gray_star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="yello_star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <section class="galleries">
+            <h2>Gallaries</h2>
+            <div class="gallery">
+              <div class="video_wrapper">
+                <video
+                  src="./media/videos/video (2).mp4"
+                  controls
+                  autoplay
+                  loop
+                ></video>
+              </div>
+              <div class="video_wrapper">
+                <video
+                  src="./media/videos/Coastline.mp4"
+                  controls
+                  autoplay
+                  loop
+                ></video>
+              </div>
+              <div class="gal_image">
+                <img src="./media/videos/gallery1.jpg" alt="">
+              </div>
+              <div class="gal_image">
+                <img src="./media/videos/gallery2.jpg" alt="">
+              </div>
+              <div class="gal_image">
+                <img src="./media/videos/gallery3.jpg" alt="">
+              </div>
+              <div class="gal_image lst_gal_img">
+                <img src="./media/videos/gallery4.jpg" alt="">
+              </div>
+             
+            </div>
+          </section>
+          <section class="testimonial">
+            <h2>Testimonials</h2>
+            <p>What our customers say about us</p>
+                <div class="customer">
+                  <div class="customer_img">
+                    <div class="img_circular"></div>
+                  </div>
+                  <div class="customer_desc">
+                    <p>
+                      "I have been to India for a long time and I have never been
+                      disappointed. The staff is very friendly and helpful. The food is
+                      delicious and the ambience is very soothing. I would definitely
+                      recommend this place to anyone."
+                    </p>
+                    <p>
+                      <b>- Steve Chen</b>
+                    </p>
+                    <div class="customer_visits">
+                      <h3>My Visits</h3>
+                      <div class="customer_visits_img">
+                        <div class="visit1"></div>
+                        <div class="visit2"></div>
+                        <div class="visit3"></div>
+                        <div class="visit4"></div>
+                        <div class="last_cust_visit_img"></div>
+                    </div>
+                  </div>
+                </div> 
+          </section>
+          <section class="blogs">
+            <h2>Recent Blogs</h2>
+            <div class="blog_wrapper">
+              <div class="blog">
+                <div class="blog_img">
+                  <img src="./media/images/blogs/pexels-ganta-srinivas-4579134.jpg" alt="" class="blog_img">
+                </div>
+                <div class="blog_desc">
+                  <h2>A day with tribals</h2>
+                  <p>These popular tribes of Odisha mainly survive on agriculture, fishing, farming, hunting and gathering all of which is characterised as subsistence economy. However, with the changing time, some of them made their way to the mining and industrial belts of India.</p>
+                  <button>View More</button>
+                </div>
+              </div>
+              <div class="blog">
+                <div class="blog_img">
+                  <img src="./media/images/blogs/pexels-hani-hakkam-6395119.jpg" alt="" class="blog_img">
+                </div>
+                <div class="blog_desc">
+                  <h2>On a road trip to Kerela</h2>
+                  <p>Our 1st visit to Kerala, where I got to know why it is called Gods own country, an ideal place to relax and forget about all your worries. Kerala is a beautiful state with beautiful people and the awesome food you can have.</p>
+                  <button>View More</button>
+                </div>
+              </div>
+              <div class="blog">
+                <div class="blog_img">
+                  <img src="./media/images/blogs/pexels-imad-clicks-11151162.jpg" alt="" class="blog_img">
+                </div>
+                <div class="blog_desc">
+                  <h2>Playing with Kashmir snow</h2>
+                  <p>Nature knows its course best. Every season has its own importance and utility. No season is less important than others. One season opens the smooth passage for the other to flourish.Winter is the fourth season of the four well-known seasons of Kashmir It follows autumn and lasts from December to February. </p>
+                  <button>View More</button>
+                </div>
+              </div>
+              <div class="blog">
+                <div class="blog_img">
+                  <img src="./media/images/blogs/pexels-mahesh-e-10549252.jpg" alt="" class="blog_img">
+                </div>
+                <div class="blog_desc">
+                  <h2>Karnataka temple visit</h2>
+                  <p>Some temples of Dakshina Kannada have the practice of not allowing ordinary clothing to be worn inside. People can drape a cloth over, or wear a Dhoti. This practice is especially found in the temples in Dakshina Kannada, which lies between the Western Ghats and the Arabian Sea. This is a very popular temple as the climate is suitable for visits all year long. Kollur, Kukke, Dharmasthala, Sringeri, Horanadu, Karkala, Murudeshwara and Gokarna are some other famous temples known for devotees thronging to them throughout the year.</p>
+                  <button>View More</button>
+                </div>
+              </div>
+              <div class="blog last_blog">
+                <div class="blog_img">
+                  <img src="./media/images/blogs/pexels-the-world-hopper-1851481.jpg" alt="" class="blog_img">
+                </div>
+                <div class="blog_desc">
+                  <h2>Gazzing a pyramid</h2>
+                  <p>Pyramids are tombs built for Egypt’s pharaohs. Pyramids are large structures with four sides that are the shape of a triangle, that meet at the top to form a point. The ancient Egyptians used the pyramids as tombs for the pharaohs and temples for their gods. The pyramids have one or two little temples attached to them, which holds their relatives and servants. A few pyramids still stand today, and are great attractions for tourists.</p>
+                  <button>View More</button>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+    <footer>
+        <div class="links_wrapper">
+            <div class="contact_info">
+              <h3>Contact Us</h3>
+              <p>
+                <span>6th Floor</span><br> 
+                <span>OBAS Tower</span><br>
+                <span>Near Kudratabad Chowk</span><br>
+                <span>New Delhi - 110019</span><br>
+              </p>
+            </div>
+            <div class="quicklinks">
+              <h3>Quick Links</h3>
+              <ul>
+                <li>Places</li>
+                <li>Packages</li>
+                <li>Destinations</li>
+                <li>Gallery</li>
+                <li>Testimonials</li>
+              </ul>
+            </div>
+            <div class="social_footer">
+              <h3>Follow us</h3>
+              <div class="social_wrapper">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#" class="social social_last"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <button>Send us a mail</button>
+            </div>
+            <div class="googlemap">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.136699813151!2d85.82696776428538!3d20.294608117811354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909da50558bb5%3A0xae924f6f6d6b08b7!2sAcharya%20Vihar%2C%20Bhubaneswar%2C%20Odisha%20751013!5e0!3m2!1sen!2sin!4v1644835893462!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
